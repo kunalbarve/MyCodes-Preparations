@@ -1,6 +1,6 @@
 package Sorting;
 
-//Best: O(n) Average: O(n*n) Worst: O(n*n)
+//Best: O(n) Average: O(n*n) Worst: O(n*n) Memory: O(1)
 // Compare current element with all the previous elements and put current at specific sorted position.
 
 public class InsertionSort {

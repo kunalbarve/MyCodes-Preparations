@@ -1,6 +1,6 @@
 package Sorting;
 
-//Best: O(n) Average: O(n*n) Worst: O(n*n)
+//Best: O(n) Average: O(n*n) Worst: O(n*n) Memory: O(1)
 // Find smallest element every time and swap it with current element.
 
 public class SelectionSort {

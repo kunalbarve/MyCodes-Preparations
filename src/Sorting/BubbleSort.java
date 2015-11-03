@@ -1,6 +1,6 @@
 package Sorting;
 
-//Best: O(n) Average: O(n*n) Worst: O(n*n)
+//Best: O(n) Average: O(n*n) Worst: O(n*n) Memory: O(1)
 //It bubbles a smallest or largest element to the end of the array in every iteration. 
 //It will just compare two adjacent elements every time.
 
