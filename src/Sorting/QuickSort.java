@@ -2,13 +2,7 @@ package Sorting;
 
 //Average: O(n log(n)) , Worst: O(n*n) Memory: O(log(n))
 
-public class QuickSort {
-	
-	static void printList(int[] listToPrint){
-		for(int element: listToPrint)
-			System.out.print(element+" ");
-		System.out.println();
-	}
+public class QuickSort extends UtilitySort {
 	
 	static int partition(int[] input, int start,int end){
 		int pivot = input[(start+end)/2];

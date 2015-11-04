@@ -4,13 +4,7 @@ package Sorting;
 //It bubbles a smallest or largest element to the end of the array in every iteration. 
 //It will just compare two adjacent elements every time.
 
-public class BubbleSort {
-	
-	static void printList(int[] listToPrint){
-		for(int element: listToPrint)
-			System.out.print(element+" ");
-		System.out.println();
-	}
+public class BubbleSort extends UtilitySort {
 	
 	static int[] doBubbleSort(int[] input){
 		if(input == null)

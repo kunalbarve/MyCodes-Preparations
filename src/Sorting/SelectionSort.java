@@ -3,14 +3,8 @@ package Sorting;
 //Best: O(n) Average: O(n*n) Worst: O(n*n) Memory: O(1)
 // Find smallest element every time and swap it with current element.
 
-public class SelectionSort {
+public class SelectionSort extends UtilitySort {
 
-	static void printList(int[] listToPrint){
-		for(int element: listToPrint)
-			System.out.print(element+" ");
-		System.out.println();
-	}
-	
 	static int[] doSelectionSort(int[] input){
 		if(input == null)
 			return null;

@@ -3,13 +3,7 @@ package Sorting;
 //Best: O(n) Average: O(n*n) Worst: O(n*n) Memory: O(1)
 // Compare current element with all the previous elements and put current at specific sorted position.
 
-public class InsertionSort {
-	
-	static void printList(int[] listToPrint){
-		for(int element: listToPrint)
-			System.out.print(element+" ");
-		System.out.println();
-	}
+public class InsertionSort extends UtilitySort {
 	
 	static int[] doInsertionSort(int[] input){
 		if(input == null)

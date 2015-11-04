@@ -2,13 +2,7 @@ package Sorting;
 
 //Average & Worst: O(n log(n)) Memory: Depends
 
-public class MergeSort {
-	
-	static void printList(int[] listToPrint){
-		for(int element: listToPrint)
-			System.out.print(element+" ");
-		System.out.println();
-	}
+public class MergeSort extends UtilitySort {
 	
 	static void merge(int[] input, int[] temp, int start, int middle, int end){
 		for(int i = start; i<= end; i++){
