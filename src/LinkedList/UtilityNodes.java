@@ -17,6 +17,19 @@ public class UtilityNodes {
 		 System.out.println(listStr);
 	 }
 	
+	static int getSize(Node head){
+		if(head == null)
+			return 0;
+		
+		int count = 0;
+		Node temp = head;
+		while(temp != null){
+			count++;
+			temp = temp.next;
+		}
+		return count;
+	}
+	
 	static Node createLinkedList(){
 		Node node10 = new Node(66, null);
 		Node node9 = new Node(66, node10);

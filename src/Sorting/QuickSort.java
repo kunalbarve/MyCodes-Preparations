@@ -35,6 +35,13 @@ public class QuickSort extends UtilitySort {
 	}
 
 	public static void main(String[] args) {
+		
+//		String s = "oSzKasAxlaByZ";
+//		int[] input = new int[s.length()];
+//		for(int i = 0; i< s.length(); i++){
+//			input[i] = s.charAt(i);
+//		}
+		
 		int[] input = {1,5,2,88,35,9,12,7};
 		System.out.println("Input:");
 		printList(input);
@@ -42,6 +49,13 @@ public class QuickSort extends UtilitySort {
 		doQuickSort(input, 0, input.length-1);
 		System.out.println("Output:");
 		printList(input);
+		
+//		String result = "";
+//		for(int i = 0; i<input.length;i++){
+//			char c = (char)input[i];
+//			result = result + c;
+//		}
+//		System.out.println(result);
 	}
 
 }
