@@ -8,6 +8,7 @@ public class MatrixElementZero extends UtilityArray{
 			int next = input[i][++j];
 			if(item == next)
 				count++;
+            else break;
 		}
 		return count;
 	}
@@ -18,6 +19,7 @@ public class MatrixElementZero extends UtilityArray{
 			int next = input[++i][j];
 			if(item == next)
 				count++;
+            else break;
 		}
 		return count;
 	}
