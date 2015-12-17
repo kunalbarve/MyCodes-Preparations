@@ -13,6 +13,9 @@ public class PermutationOrAnagrams {
 		List<String> result = new ArrayList<>();
 		if(s.isEmpty())
 			result.add("");
+		else if(s.length() == 1){
+			result.add(s);
+		}
 		else{
 			char firstChar = s.charAt(0);
 			List<String> words = findAllAnagrams(s.substring(1));

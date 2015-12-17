@@ -46,13 +46,13 @@ public class AllPossibleListForSum {
     */
 
     static void print(Stack<Integer> stack) {
-    	System.out.println(stack.toArray());
-//        StringBuilder sb = new StringBuilder();
-//        sb.append(TARGET_SUM).append(" = ");
-//        for (Integer i : stack) {
-//            sb.append(i).append("+");
-//        }
-//        System.out.println(sb.deleteCharAt(sb.length() - 1).toString());
+//    	System.out.println(stack.toArray());
+        StringBuilder sb = new StringBuilder();
+        sb.append(TARGET_SUM).append(" = ");
+        for (Integer i : stack) {
+            sb.append(i).append("+");
+        }
+        System.out.println(sb.deleteCharAt(sb.length() - 1).toString());
     }
 
 	

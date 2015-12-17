@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class RemoveDuplicates extends UtilityNodes {
 	
+	//O(1) space & O(n*n) time
 	static Node removeDuplicates(Node head){
 		if(head == null)
 			return head;
@@ -25,6 +26,7 @@ public class RemoveDuplicates extends UtilityNodes {
 		return head;
 	}
 	
+	//O(n) space & time
 	static Node removeDuplicatesAlt(Node head){
 		if(head == null)
 			return head;
