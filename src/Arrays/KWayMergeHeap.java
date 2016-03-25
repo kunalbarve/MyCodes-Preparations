@@ -27,12 +27,17 @@ public class KWayMergeHeap {
 			
 		}
 		
+		System.out.println(queue);
+		
 		while(!queue.isEmpty()) {
 			Entry entry = queue.poll();
 			result.add(entry.getValue());
+			System.out.println("Result:"+result);
 			if (entry.readNext()) {
 				queue.add(entry);
 			}
+			System.out.println();
+			System.out.println(queue);
 		}
 		return result;
 	}
@@ -96,7 +101,12 @@ class Entry implements Comparable<Entry> {
  
 	@Override
 	public int compareTo(Entry e) {
-		return this.value - e.value;
+		return Integer.valueOf(value).compareTo(e.value);
+	}
+	
+	@Override
+	public String toString(){
+		return ""+value;
 	}
 	
 }

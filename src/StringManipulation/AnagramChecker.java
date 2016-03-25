@@ -24,7 +24,7 @@ public class AnagramChecker {
 	
 	private String getSortedString(String s){
 		char[] charArray = s.toCharArray();
-		java.util.Arrays.sort(charArray);
+		Arrays.sort(charArray);
 		return new String(charArray);
 	}
 	

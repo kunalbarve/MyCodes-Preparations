@@ -37,6 +37,7 @@ public class CreateMultipleUrls {
 		List<String> urls = generateUrls(input);
 		
 		System.out.println("Output:\n"+urls.toString());
+		System.out.println("Size:"+urls.size());
 	}
 
 }
